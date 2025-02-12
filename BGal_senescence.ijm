@@ -2,14 +2,14 @@
  * Description: Perform color deconvolution, detect cells with Cellpose and measure their intensity in blue channel
  * Developed for: Adèle, De Thé's team
  * Author: Héloïse Monnet @ ORION-CIRB 
- * Date: January 2025
+ * Date: February 2025
  * Repository: https://github.com/orion-cirb/BGal_Senescence
  * Dependencies: PTBIOP Fiji plugin + Cellpose conda environment
 */
 
 
 // PARAMETERS TO REVIEW BEFORE LAUNCHING MACRO //
-cellposeEnvPath = "/opt/miniconda3/envs/cellpose"; //"C:/Users/utilisateur/miniconda3/envs/CellPose/"; TODO
+cellposeEnvPath = "C:/Users/utilisateur/miniconda3/envs/CellPose/";
 cellposeModelName = "cyto2";
 cellposeDiameter = 140; // pix     20x: 80       40x: 140
 
